@@ -10,13 +10,13 @@ public class TestHashSet {
 		// HashSet 중복되지않는 집합
 		
 		HashSet<String>  set = new HashSet<>(); 
-		set.add("Java"); // Vector 는 ArrayList 와 같다
+		set.add("Java"); // ( Vector, ArrayList ) 배열 대체 와 같다
 		set.add("Html");
 		set.add("Oracle");
-		set.add("Java");  // 대문자일시 출력은 Java 를 겹쳐서 4개만 소문자일시 Java, java 5개출력
+		set.add("Java");  // Java 를 겹쳐서 4개만 소문자일시 Java, java 5개출력
 		set.add("Spring");
 		System.out.println( set.size() );
-		System.out.println( set );
+		System.out.println( set );  // set 도 배열이다
 		
 		for (Iterator iterator = set.iterator(); iterator.hasNext();) {
 			String name = (String) iterator.next();

@@ -5,10 +5,10 @@ import java.util.HashMap;
 public class TestHashMap {
 
 	public static void main(String[] args) {
-		HashMap<String, Object> map = new HashMap<>();
+		HashMap<String, Object> map = new HashMap<>(); // map 은 배열과 달리 0, 1, 2.. 로 졍렬된것이 아니라 각각의 변수에 이름을 붙여 사용한다
 	// HashMap<String, Object> map = new HashMap<String, Object>(); 이것도 가능하다
-		
-		map.put("num",  1);
+		       // 이름  value
+		map.put("num",  1);         // 넣을땐 put 꺼낼때 get
 		map.put("name", "송중기");
 		map.put("kor",  90);
 		map.put("eng",  95);

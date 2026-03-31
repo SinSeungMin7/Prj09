@@ -3,7 +3,6 @@ package Collection2;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Objects;
-import java.util.TreeSet;
 
 class Student { 
 	private int      id;
@@ -45,7 +44,6 @@ public class TestSetStudent {
 	public static void main(String[] args) {
 		
 		ArrayList<Student> studList = new ArrayList<>(); // ArrayList 밑 빨간줄일때 -> Ctrl + shift + O 사용 -> 위쪽에 import java.util.ArrayList; 생성
-		
 	//	Student s1 = new Student(1,"가나");
 		studList.add( new Student(1,"가나") );
 		studList.add( new Student(2,"나나") );
@@ -57,7 +55,6 @@ public class TestSetStudent {
 		// System.out.println( studList.size() ); 4가 출력된다
 		//----------------------------------------------
 		HashSet<Student> studSet = new HashSet<>();
-		
 		studSet.add( new Student(1,"가나") );
 		studSet.add( new Student(2,"나나") );
 		studSet.add( new Student(3,"다나") );

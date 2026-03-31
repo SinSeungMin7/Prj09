@@ -19,16 +19,16 @@ public class TextArrayList {
 		
 		//----------------------------------------
 		// ArrayList 로 만든공식은 추가를 할 수 있다
-		ArrayList<Integer> numList = new ArrayList<>();
-		numList.add( 10 );
-		numList.add( 20 );
-		numList.add( 30 );
-		numList.add( 40 );
-		numList.add( 50 );
-		numList.add( 80 ); // add 추가하면 출력화면에도 계속 추가가된다
-		
+		ArrayList<Integer> numList = new ArrayList<>();  // 사이즈를 입력하지 않는다
+		numList.add( 10 ); // 0
+		numList.add( 20 ); // 1	
+		numList.add( 30 ); // 2
+		numList.add( 40 ); // 3
+		numList.add( 50 ); // 4
+		numList.add( 80 ); // 5 
+		// add 추가하면 출력화면에도 계속 추가가된다
 		for (int i = 0; i < numList.size(); i++) {
-			System.out.print( numList.get(i) + " " );			
+			System.out.print( numList.get(i) + " " ); // 꺼낼땐 get 을 써서 입력된값을 출력한다			
 		}
 		System.out.println();
 		

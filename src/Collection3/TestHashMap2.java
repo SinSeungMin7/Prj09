@@ -17,7 +17,7 @@ public class TestHashMap2 {
 		map.put(50, "생산");
 		// 30번이 어느 부서인가? 
 		System.out.println( map );
-		System.out.println( map.get(30) );
+		System.out.println( map.get(30) ); // 자료를 빼낼때 .get
 		System.out.println( map.size() );
 		
 		// map 에 추가
